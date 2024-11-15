@@ -1,0 +1,89 @@
+.systemSettingsContainer {
+  flex: 1;
+  min-height: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding: 0 40px;
+}
+.systemSettingsContainer .languagueSetting {
+  display: flex;
+  align-items: center;
+}
+.systemSettingsContainer .languagueSetting .languagueItem {
+  cursor: pointer;
+  width: 100px;
+  height: 32px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #EAEAEA;
+  margin-right: -1px;
+  color: #333333;
+}
+.systemSettingsContainer .languagueSetting .languagueItem:hover {
+  color: #2196F3;
+}
+.systemSettingsContainer .languagueSetting .languagueItem.active {
+  color: #ffffff;
+  font-weight: bold;
+  background: #2196F3;
+  border-color: #2196F3;
+}
+.systemSettingsContainer .languagueSetting .languagueItem:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.systemSettingsContainer .languagueSetting .languagueItem:last-child {
+  border-radius: 0 3px 3px 0;
+}
+.systemSettingsContainer .systemSettingItem {
+  display: flex;
+  padding: 30px 0;
+  border-bottom: 1px solid #EAEAEA;
+}
+.systemSettingsContainer .systemSettingItem .systemSettingsLabel {
+  width: 140px;
+  text-align: left;
+}
+.systemSettingsContainer .systemSettingItem .systemSettingsRight {
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+}
+.systemSettingsContainer .systemSettingItem .systemSettingsRight label .ant-checkbox-input {
+  display: none;
+}
+.systemSettingsContainer .systemSettingItem .systemSettingsRight .ant-select-selector {
+  width: 180px;
+  height: 36px;
+}
+.systemSettingsContainer .systemSettingItem .systemSettingsRight .ant-select-selector .ant-select-selection-item {
+  height: 36px;
+  line-height: 36px;
+}
+.systemSettingsContainer .systemSettingItem .systemSettingsRight .ant-checkbox-wrapper {
+  margin-top: 24px;
+  margin-left: 0;
+}
+.systemSettingsContainer .systemSettingItem .systemSettingsRight .RadioGroup--vertical .Radio {
+  margin-bottom: 10px;
+}
+.systemSettingsContainer .systemSettingItem .systemSettingsRight .systemSettingsZone {
+  width: 500px;
+}
+.systemSettingsContainer .systemSettingItem .systemSettingsRight .systemSettingsZone .Dropdown--border {
+  height: 32px;
+}
+.systemSettingsContainer .systemSettingItem .systemSettingsRight .systemSettingsZone .ming.Menu {
+  width: auto;
+  right: 0;
+}
+.systemSettingsContainer .systemSettingItem .systemSettingsRight .systemSettingsZoneDesc {
+  max-width: 600px;
+  padding: 6px 14px;
+  background: #FBEFE0;
+  border-radius: 4px;
+}
+.systemSettingsContainer .borderNoe {
+  border: none;
+}
+

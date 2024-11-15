@@ -1,0 +1,102 @@
+.appTabBar {
+  height: 49px;
+  border-top: 1px solid #dddddd59;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+.appTabBar .itemTab {
+  color: #9E9E9E;
+  font-size: 12px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.appTabBar .itemTab img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+.appTabBar .itemTab.action {
+  color: #2196F3;
+}
+.appTabBar .itemTab.action .icon {
+  color: #2196F3;
+}
+.appTabBar .itemTab .icon {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 22px;
+}
+.appTabBar .itemTab span {
+  margin-top: 3px;
+}
+.appTabBar .itemTab .processCount {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #FF1100;
+  width: 17px;
+  height: 16px;
+  justify-content: center;
+  position: absolute;
+  top: -6px;
+  right: 15px;
+  border-radius: 24px;
+  padding: 0 5px;
+}
+.am-action-sheet,
+.actionSheetModal {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+
+.MyHome .header {
+  display: flex;
+  padding: 35px 15px 10px;
+}
+.MyHome .header .name {
+  font-size: 30px;
+}
+.MyHome .header .profession {
+  color: #9E9E9E;
+  font-size: 15px;
+}
+.MyHome .header .avatarMiddle {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+}
+.MyHome .body .am-list-body:before {
+  content: none;
+}
+.MyHome .body .businessWrapper {
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #01C982;
+  justify-content: center;
+}
+.MyHome .body .icon-workflow_help {
+  color: #00BBD3;
+}
+.MyHome .body .icon-problem_feedback {
+  color: #607D8A;
+}
+.MyHome .logOutBtn {
+  color: red;
+  width: 93%;
+  margin: 0 auto;
+  display: flex;
+  font-size: 17px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-radius: 24px;
+  background-color: #F5F5F5;
+}
+

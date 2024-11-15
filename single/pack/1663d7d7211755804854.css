@@ -1,0 +1,199 @@
+.memberListWrapper {
+  background-color: #f5f5f9;
+}
+.memberListCon .isLoadingCon {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.memberListCon .addUserButton {
+  font-size: 16px;
+  padding: 0 20px;
+  border-radius: 24px;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+.memberListCon .ListSection .listCon {
+  min-height: 50px !important;
+}
+.memberListCon .ListSection .listCon .ownerTag {
+  background: #1e88e5;
+  color: #fff;
+  line-height: 18px;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 22px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 13px;
+}
+.memberListCon .ListSection .listCon .tag {
+  background: #f5f5f5;
+  color: #9e9e9e;
+  line-height: 20px;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 22px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 13px;
+}
+.memberListCon .addUser {
+  color: #2196f3;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 44px;
+  line-height: 44px;
+  background-color: #fff;
+}
+.memberListCon .pBottom44 {
+  padding-bottom: 44px;
+}
+.memberListCon .bottom55 {
+  bottom: 55px;
+}
+
+.memberListMobile {
+  background-color: #F5F5F5;
+}
+.memberListMobile .memberListCon {
+  background-color: #F5F5F5;
+  overflow: auto;
+}
+.memberListMobile .memberListCon .moreAction {
+  text-align: right;
+  margin-right: -5px;
+}
+.memberListMobile .memberListCon .pendingApply {
+  font-weight: 500;
+}
+.memberListMobile .memberListCon .isMyRole {
+  width: 4px;
+  height: 10px;
+  background: #2196f3;
+  border-radius: 2px;
+  position: absolute;
+  left: 4px;
+  top: 23px;
+}
+.memberListMobile .memberListCon .iconBG {
+  width: 26px !important;
+  height: 26px !important;
+  border-radius: 50%;
+  background: #eaeaea;
+  text-align: center;
+  line-height: 26px;
+  border: 1px solid #fff;
+  display: inline-block;
+  margin-left: -10px;
+  vertical-align: top;
+}
+.memberListMobile .memberListCon .roleTypeTitle {
+  font-size: 14px;
+  color: #757575;
+  padding: 24px 0 5px 14px;
+}
+.memberListMobile .am-card,
+.memberListMobile .am-card-body {
+  min-height: auto;
+}
+.memberListMobile .am-card-body {
+  padding: 15px;
+}
+.memberListMobile .am-card:not(.am-card-full) {
+  border-radius: 0;
+  padding-bottom: 0;
+}
+.memberListMobile .am-card-body::before,
+.memberListMobile .am-card:not(.am-card-full)::before {
+  border: 0 !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.mobileMembers input {
+  color: #333;
+}
+.mobileMembers .am-modal-header {
+  padding: 6px 15px 10px;
+}
+.mobileMembers .am-modal-button {
+  font-size: 16px;
+  height: 44px;
+  line-height: 44px;
+}
+.mobileMembers .am-modal-button:first-child {
+  color: #108ee9;
+}
+.mobileMembers .am-modal-button:last-child {
+  color: red;
+}
+
+.selectUserModal {
+  background-color: #f8f8f8;
+}
+.selectUserModal .searchWrapper {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 7px 10px;
+  margin: 10px 15px;
+}
+.selectUserModal .searchWrapper .icon-h5_search {
+  color: #757575;
+  font-size: 14px;
+}
+.selectUserModal .searchWrapper .icon-workflow_cancel {
+  color: #bdbdbd;
+  font-size: 15px;
+}
+.selectUserModal .searchWrapper input {
+  width: 100%;
+  border: 0;
+  padding: 0 5px;
+}
+.selectUserModal .selectedWrapper {
+  color: #333;
+  padding: 10px 10px 0;
+  margin: 5px 0 10px;
+  text-align: left;
+  background-color: #fff;
+}
+.selectUserModal .selectedWrapper .selectedItem {
+  border-radius: 24px;
+  padding: 0px 16px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #f0f0f0;
+  margin: 0 10px 10px 0;
+  float: left;
+}
+.selectUserModal .selectedWrapper .icon {
+  margin-left: 5px;
+}
+.selectUserModal .jobList {
+  background-color: #fff;
+}
+.selectUserModal .jobList .jobItem {
+  height: 46px;
+  line-height: 46px;
+}
+.selectUserModal .jobList .jobItem .radioWrap {
+  padding: 0 15px;
+  width: 50px;
+}
+.selectUserModal .jobList .jobItem .jobName {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+.selectUserModal .jobList .jobItem .am-list-thumb {
+  margin-right: 0;
+}
+

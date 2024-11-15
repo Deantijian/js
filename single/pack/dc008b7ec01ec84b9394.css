@@ -1,0 +1,48 @@
+.appGroupList {
+  height: 100%;
+  background-color: #f5f5f5;
+}
+.appGroupList .groupItem {
+  border-bottom: 1px solid #eaeaea;
+}
+.appGroupList .groupItem .groupTitle {
+  padding: 19px 0 10px 15px;
+}
+.appGroupList .groupItem .groupItemDetail {
+  height: 53px;
+  line-height: 53px;
+  background-color: #fff;
+}
+.appGroupList .groupItem .groupItemDetail.borderTop {
+  border-top: 1px solid #eaeaea;
+}
+.appGroupList .groupItem .groupItemDetail .groupItemIcon {
+  padding-left: 16px;
+  margin-right: 16px;
+}
+.appGroupList .groupItem .groupItemDetail .groupItemIcon .icon {
+  line-height: 53px;
+}
+.appGroupList .groupItem .groupItemDetail .groupItemName {
+  font-size: 17px;
+  font-weight: 600;
+  padding-right: 16px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-bottom: 1px solid #eaeaea;
+}
+.appGroupList .groupItem .groupItemDetail .markedGroup {
+  width: 50px;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+.appGroupList .groupItem .groupItemDetail .space {
+  width: 16px;
+  border-bottom: 1px solid #eaeaea;
+}
+.appGroupList .groupItem .groupItemDetail .currentGroupLast {
+  border: none;
+}
+

@@ -1,0 +1,1043 @@
+.darkHeader .header {
+  margin: 0 !important;
+  padding-left: 24px;
+  background-color: #f5f5f5;
+  border-radius: 3px 3px 0 0;
+}
+.shareAttachmentDialogContainer {
+  padding: 0 0 10px;
+}
+.shareAttachmentDialogContainer * {
+  box-sizing: border-box;
+}
+.shareAttachmentDialogContainer input,
+.shareAttachmentDialogContainer textarea {
+  width: 100% !important;
+}
+.shareAttachmentDialogContainer .filePreview {
+  position: relative;
+  height: 140px;
+  margin: 0px -24px 25px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+.shareAttachmentDialogContainer .filePreview .fileIcon {
+  position: relative;
+  margin-top: -13px;
+  width: 85px;
+  height: 97px;
+  background-size: cover !important;
+}
+.shareAttachmentDialogContainer .filePreview .fileIcon.worksheetIcon {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNTAwcHgiIGhlaWdodD0iNTU2cHgiIHZpZXdCb3g9IjAgMCA1MDAgNTU2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0OSAoNTEwMDIpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPmljLWZpbGUtdGFibGU8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iaWMtZmlsZS10YWJsZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMuMDAwMDAwLCAtMTQuMDAwMDAwKSIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHBhdGggZD0iTTM2MS40MTE3NjUsMTQuNjA3NjMzNiBMMjcuMTA1ODgyNCwxNC42MDc2MzM2IEMxMi4wNDcwNTg4LDE0LjYwNzYzMzYgMy4wMTE3NjQ3MSwyNi4yOTM3NDA1IDMuMDExNzY0NzEsMzcuOTc5ODQ3MyBMMy4wMTE3NjQ3MSw1NDYuMzI1NDk2IEMzLjAxMTc2NDcxLDU2MC45MzMxMyAxNS4wNTg4MjM1LDU2OS42OTc3MSAyNy4xMDU4ODI0LDU2OS42OTc3MSBMNDc4Ljg3MDU4OCw1NjkuNjk3NzEgQzQ5My45Mjk0MTIsNTY5LjY5NzcxIDUwMi45NjQ3MDYsNTU4LjAxMTYwMyA1MDIuOTY0NzA2LDU0Ni4zMjU0OTYgTDUwMi45NjQ3MDYsMTUxLjkxOTM4OSBMMzYxLjQxMTc2NSwxNC42MDc2MzM2IFogTTE5OC43NzY0NzEsNDIzLjYyMTM3NCBDMTk4Ljc3NjQ3MSw0MjYuNTQyOTAxIDE5NS43NjQ3MDYsNDI5LjQ2NDQyNyAxOTIuNzUyOTQxLDQyOS40NjQ0MjcgTDEzNS41Mjk0MTIsNDI5LjQ2NDQyNyBDMTMyLjUxNzY0Nyw0MjkuNDY0NDI3IDEyOS41MDU4ODIsNDI2LjU0MjkwMSAxMjkuNTA1ODgyLDQyMy42MjEzNzQgTDEyOS41MDU4ODIsMzkxLjQ4NDU4IEMxMjkuNTA1ODgyLDM4OC41NjMwNTMgMTMyLjUxNzY0NywzODUuNjQxNTI3IDEzNS41Mjk0MTIsMzg1LjY0MTUyNyBMMTkyLjc1Mjk0MSwzODUuNjQxNTI3IEMxOTUuNzY0NzA2LDM4NS42NDE1MjcgMTk4Ljc3NjQ3MSwzODguNTYzMDUzIDE5OC43NzY0NzEsMzkxLjQ4NDU4IEwxOTguNzc2NDcxLDQyMy42MjEzNzQgWiBNMTk4Ljc3NjQ3MSwzNTYuNDI2MjYgQzE5OC43NzY0NzEsMzU5LjM0Nzc4NiAxOTUuNzY0NzA2LDM2Mi4yNjkzMTMgMTkyLjc1Mjk0MSwzNjIuMjY5MzEzIEwxMzUuNTI5NDEyLDM2Mi4yNjkzMTMgQzEzMi41MTc2NDcsMzYyLjI2OTMxMyAxMjkuNTA1ODgyLDM1OS4zNDc3ODYgMTI5LjUwNTg4MiwzNTYuNDI2MjYgTDEyOS41MDU4ODIsMzI0LjI4OTQ2NiBDMTI5LjUwNTg4MiwzMjEuMzY3OTM5IDEzMi41MTc2NDcsMzE4LjQ0NjQxMiAxMzUuNTI5NDEyLDMxOC40NDY0MTIgTDE5Mi43NTI5NDEsMzE4LjQ0NjQxMiBDMTk1Ljc2NDcwNiwzMTguNDQ2NDEyIDE5OC43NzY0NzEsMzIxLjM2NzkzOSAxOTguNzc2NDcxLDMyNC4yODk0NjYgTDE5OC43NzY0NzEsMzU2LjQyNjI2IFogTTE5OC43NzY0NzEsMjg5LjIzMTE0NSBDMTk4Ljc3NjQ3MSwyOTIuMTUyNjcyIDE5NS43NjQ3MDYsMjk1LjA3NDE5OCAxOTIuNzUyOTQxLDI5NS4wNzQxOTggTDEzNS41Mjk0MTIsMjk1LjA3NDE5OCBDMTMyLjUxNzY0NywyOTUuMDc0MTk4IDEyOS41MDU4ODIsMjkyLjE1MjY3MiAxMjkuNTA1ODgyLDI4OS4yMzExNDUgTDEyOS41MDU4ODIsMjU3LjA5NDM1MSBDMTI5LjUwNTg4MiwyNTQuMTcyODI0IDEzMi41MTc2NDcsMjUxLjI1MTI5OCAxMzUuNTI5NDEyLDI1MS4yNTEyOTggTDE5Mi43NTI5NDEsMjUxLjI1MTI5OCBDMTk1Ljc2NDcwNiwyNTEuMjUxMjk4IDE5OC43NzY0NzEsMjU0LjE3MjgyNCAxOTguNzc2NDcxLDI1Ny4wOTQzNTEgTDE5OC43NzY0NzEsMjg5LjIzMTE0NSBaIE0yODkuMTI5NDEyLDQyMy42MjEzNzQgQzI4OS4xMjk0MTIsNDI2LjU0MjkwMSAyODYuMTE3NjQ3LDQyOS40NjQ0MjcgMjgzLjEwNTg4Miw0MjkuNDY0NDI3IEwyMjUuODgyMzUzLDQyOS40NjQ0MjcgQzIyMi44NzA1ODgsNDI5LjQ2NDQyNyAyMTkuODU4ODI0LDQyNi41NDI5MDEgMjE5Ljg1ODgyNCw0MjMuNjIxMzc0IEwyMTkuODU4ODI0LDM5MS40ODQ1OCBDMjE5Ljg1ODgyNCwzODguNTYzMDUzIDIyMi44NzA1ODgsMzg1LjY0MTUyNyAyMjUuODgyMzUzLDM4NS42NDE1MjcgTDI4My4xMDU4ODIsMzg1LjY0MTUyNyBDMjg2LjExNzY0NywzODUuNjQxNTI3IDI4OS4xMjk0MTIsMzg4LjU2MzA1MyAyODkuMTI5NDEyLDM5MS40ODQ1OCBMMjg5LjEyOTQxMiw0MjMuNjIxMzc0IFogTTI4OS4xMjk0MTIsMzU2LjQyNjI2IEMyODkuMTI5NDEyLDM1OS4zNDc3ODYgMjg2LjExNzY0NywzNjIuMjY5MzEzIDI4My4xMDU4ODIsMzYyLjI2OTMxMyBMMjI1Ljg4MjM1MywzNjIuMjY5MzEzIEMyMjIuODcwNTg4LDM2Mi4yNjkzMTMgMjE5Ljg1ODgyNCwzNTkuMzQ3Nzg2IDIxOS44NTg4MjQsMzU2LjQyNjI2IEwyMTkuODU4ODI0LDMyNC4yODk0NjYgQzIxOS44NTg4MjQsMzIxLjM2NzkzOSAyMjIuODcwNTg4LDMxOC40NDY0MTIgMjI1Ljg4MjM1MywzMTguNDQ2NDEyIEwyODMuMTA1ODgyLDMxOC40NDY0MTIgQzI4Ni4xMTc2NDcsMzE4LjQ0NjQxMiAyODkuMTI5NDEyLDMyMS4zNjc5MzkgMjg5LjEyOTQxMiwzMjQuMjg5NDY2IEwyODkuMTI5NDEyLDM1Ni40MjYyNiBaIE0yODkuMTI5NDEyLDI4OS4yMzExNDUgQzI4OS4xMjk0MTIsMjkyLjE1MjY3MiAyODYuMTE3NjQ3LDI5NS4wNzQxOTggMjgzLjEwNTg4MiwyOTUuMDc0MTk4IEwyMjUuODgyMzUzLDI5NS4wNzQxOTggQzIyMi44NzA1ODgsMjk1LjA3NDE5OCAyMTkuODU4ODI0LDI5Mi4xNTI2NzIgMjE5Ljg1ODgyNCwyODkuMjMxMTQ1IEwyMTkuODU4ODI0LDI1Ny4wOTQzNTEgQzIxOS44NTg4MjQsMjU0LjE3MjgyNCAyMjIuODcwNTg4LDI1MS4yNTEyOTggMjI1Ljg4MjM1MywyNTEuMjUxMjk4IEwyODMuMTA1ODgyLDI1MS4yNTEyOTggQzI4Ni4xMTc2NDcsMjUxLjI1MTI5OCAyODkuMTI5NDEyLDI1NC4xNzI4MjQgMjg5LjEyOTQxMiwyNTcuMDk0MzUxIEwyODkuMTI5NDEyLDI4OS4yMzExNDUgWiBNMzc5LjQ4MjM1Myw0MjMuNjIxMzc0IEMzNzkuNDgyMzUzLDQyNi41NDI5MDEgMzc2LjQ3MDU4OCw0MjkuNDY0NDI3IDM3My40NTg4MjQsNDI5LjQ2NDQyNyBMMzE2LjIzNTI5NCw0MjkuNDY0NDI3IEMzMTMuMjIzNTI5LDQyOS40NjQ0MjcgMzEwLjIxMTc2NSw0MjYuNTQyOTAxIDMxMC4yMTE3NjUsNDIzLjYyMTM3NCBMMzEwLjIxMTc2NSwzOTEuNDg0NTggQzMxMC4yMTE3NjUsMzg4LjU2MzA1MyAzMTMuMjIzNTI5LDM4NS42NDE1MjcgMzE2LjIzNTI5NCwzODUuNjQxNTI3IEwzNzMuNDU4ODI0LDM4NS42NDE1MjcgQzM3Ni40NzA1ODgsMzg1LjY0MTUyNyAzNzkuNDgyMzUzLDM4OC41NjMwNTMgMzc5LjQ4MjM1MywzOTEuNDg0NTggTDM3OS40ODIzNTMsNDIzLjYyMTM3NCBaIE0zNzkuNDgyMzUzLDM1Ni40MjYyNiBDMzc5LjQ4MjM1MywzNTkuMzQ3Nzg2IDM3Ni40NzA1ODgsMzYyLjI2OTMxMyAzNzMuNDU4ODI0LDM2Mi4yNjkzMTMgTDMxNi4yMzUyOTQsMzYyLjI2OTMxMyBDMzEzLjIyMzUyOSwzNjIuMjY5MzEzIDMxMC4yMTE3NjUsMzU5LjM0Nzc4NiAzMTAuMjExNzY1LDM1Ni40MjYyNiBMMzEwLjIxMTc2NSwzMjQuMjg5NDY2IEMzMTAuMjExNzY1LDMyMS4zNjc5MzkgMzEzLjIyMzUyOSwzMTguNDQ2NDEyIDMxNi4yMzUyOTQsMzE4LjQ0NjQxMiBMMzczLjQ1ODgyNCwzMTguNDQ2NDEyIEMzNzYuNDcwNTg4LDMxOC40NDY0MTIgMzc5LjQ4MjM1MywzMjEuMzY3OTM5IDM3OS40ODIzNTMsMzI0LjI4OTQ2NiBMMzc5LjQ4MjM1MywzNTYuNDI2MjYgWiBNMzc5LjQ4MjM1MywyODkuMjMxMTQ1IEMzNzkuNDgyMzUzLDI5Mi4xNTI2NzIgMzc2LjQ3MDU4OCwyOTUuMDc0MTk4IDM3My40NTg4MjQsMjk1LjA3NDE5OCBMMzE2LjIzNTI5NCwyOTUuMDc0MTk4IEMzMTMuMjIzNTI5LDI5NS4wNzQxOTggMzEwLjIxMTc2NSwyOTIuMTUyNjcyIDMxMC4yMTE3NjUsMjg5LjIzMTE0NSBMMzEwLjIxMTc2NSwyNTcuMDk0MzUxIEMzMTAuMjExNzY1LDI1NC4xNzI4MjQgMzEzLjIyMzUyOSwyNTEuMjUxMjk4IDMxNi4yMzUyOTQsMjUxLjI1MTI5OCBMMzczLjQ1ODgyNCwyNTEuMjUxMjk4IEMzNzYuNDcwNTg4LDI1MS4yNTEyOTggMzc5LjQ4MjM1MywyNTQuMTcyODI0IDM3OS40ODIzNTMsMjU3LjA5NDM1MSBMMzc5LjQ4MjM1MywyODkuMjMxMTQ1IFoiIGlkPSJTaGFwZSIgZmlsbD0iI0Y3QTk0MyI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMzYxLjQxMTc2NSwxNC42MDc2MzM2IEwzNjEuNDExNzY1LDEyOC41NDcxNzYgQzM2MS40MTE3NjUsMTQwLjIzMzI4MiAzNzAuNDQ3MDU5LDE1MS45MTkzODkgMzg1LjUwNTg4MiwxNTEuOTE5Mzg5IEw1MDIuOTY0NzA2LDE1MS45MTkzODkgQzUwMi45NjQ3MDYsMTUxLjkxOTM4OSAzNjEuNDExNzY1LDE0LjYwNzYzMzYgMzYxLjQxMTc2NSwxNC42MDc2MzM2IFoiIGlkPSJTaGFwZSIgZmlsbD0iI0ZGRkZGRiIgb3BhY2l0eT0iMC4zIj48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=);
+  margin: 0 auto;
+}
+.shareAttachmentDialogContainer .filePreview .fileIcon.worksheetIcon .fileSize {
+  display: none;
+}
+.shareAttachmentDialogContainer .filePreview .fileIcon.worksheetRecordIcon {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNTAwcHgiIGhlaWdodD0iNTU5cHgiIHZpZXdCb3g9IjAgMCA1MDAgNTU5IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0OSAoNTEwMDIpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPmljLWxpbmU8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iaWMtbGluZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTYuMDAwMDAwLCAtMTQuMDAwMDAwKSIgZmlsbD0iI0Y3QTk0MyIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHBhdGggZD0iTTQ4MS44ODIzNTMsMTQuNjA3NjMzNiBMMzAuMTE3NjQ3MSwxNC42MDc2MzM2IEMyNy4xMDU4ODI0LDE0LjYwNzYzMzYgMjEuMDgyMzUyOSwxNC42MDc2MzM2IDE4LjA3MDU4ODIsMTcuNTI5MTYwMyBDOS4wMzUyOTQxMiwyMC40NTA2ODcgNi4wMjM1Mjk0MSwyOS4yMTUyNjcyIDYuMDIzNTI5NDEsMzcuOTc5ODQ3MyBMNi4wMjM1Mjk0MSw1NDkuMjQ3MDIzIEM2LjAyMzUyOTQxLDU2MC45MzMxMyAxNS4wNTg4MjM1LDU3Mi42MTkyMzcgMzAuMTE3NjQ3MSw1NzIuNjE5MjM3IEw0ODEuODgyMzUzLDU3Mi42MTkyMzcgQzQ4NC44OTQxMTgsNTcyLjYxOTIzNyA0OTAuOTE3NjQ3LDU3Mi42MTkyMzcgNDkzLjkyOTQxMiw1NjkuNjk3NzEgQzQ5Ni45NDExNzYsNTY5LjY5NzcxIDQ5Ni45NDExNzYsNTY2Ljc3NjE4MyA0OTkuOTUyOTQxLDU2Ni43NzYxODMgQzUwMi45NjQ3MDYsNTYzLjg1NDY1NiA1MDUuOTc2NDcxLDU1OC4wMTE2MDMgNTA1Ljk3NjQ3MSw1NTIuMTY4NTUgTDUwNS45NzY0NzEsMzcuOTc5ODQ3MyBDNTAyLjk2NDcwNiwyMy4zNzIyMTM3IDQ5My45Mjk0MTIsMTQuNjA3NjMzNiA0ODEuODgyMzUzLDE0LjYwNzYzMzYgWiBNMzM3LjMxNzY0Nyw0MjYuNTQyOTAxIEwxMjMuNDgyMzUzLDQyNi41NDI5MDEgQzExNC40NDcwNTksNDI2LjU0MjkwMSAxMDUuNDExNzY1LDQxNy43NzgzMjEgMTA1LjQxMTc2NSw0MDkuMDEzNzQgQzEwNS40MTE3NjUsNDAwLjI0OTE2IDExNC40NDcwNTksMzkxLjQ4NDU4IDEyMy40ODIzNTMsMzkxLjQ4NDU4IEwzMzQuMzA1ODgyLDM5MS40ODQ1OCBDMzQzLjM0MTE3NiwzOTEuNDg0NTggMzUyLjM3NjQ3MSw0MDAuMjQ5MTYgMzUyLjM3NjQ3MSw0MDkuMDEzNzQgQzM1NS4zODgyMzUsNDE3Ljc3ODMyMSAzNDYuMzUyOTQxLDQyMy42MjEzNzQgMzM3LjMxNzY0Nyw0MjYuNTQyOTAxIFogTTEwNS40MTE3NjUsMjk3Ljk5NTcyNSBDMTA1LjQxMTc2NSwyODkuMjMxMTQ1IDExNC40NDcwNTksMjgwLjQ2NjU2NSAxMjMuNDgyMzUzLDI4MC40NjY1NjUgTDI2Mi4wMjM1MjksMjgwLjQ2NjU2NSBDMjcxLjA1ODgyNCwyODAuNDY2NTY1IDI4MC4wOTQxMTgsMjg5LjIzMTE0NSAyODAuMDk0MTE4LDI5Ny45OTU3MjUgQzI4MC4wOTQxMTgsMzA2Ljc2MDMwNSAyNzEuMDU4ODI0LDMxNS41MjQ4ODUgMjYyLjAyMzUyOSwzMTUuNTI0ODg1IEwxMjMuNDgyMzUzLDMxNS41MjQ4ODUgQzExNC40NDcwNTksMzE1LjUyNDg4NSAxMDUuNDExNzY1LDMwOS42ODE4MzIgMTA1LjQxMTc2NSwyOTcuOTk1NzI1IFogTTM4NS41MDU4ODIsMjA3LjQyODM5NyBMMTIzLjQ4MjM1MywyMDcuNDI4Mzk3IEMxMTQuNDQ3MDU5LDIwNy40MjgzOTcgMTA1LjQxMTc2NSwxOTguNjYzODE3IDEwNS40MTE3NjUsMTg5Ljg5OTIzNyBDMTA1LjQxMTc2NSwxODEuMTM0NjU2IDExNC40NDcwNTksMTcyLjM3MDA3NiAxMjMuNDgyMzUzLDE3Mi4zNzAwNzYgTDM4NS41MDU4ODIsMTcyLjM3MDA3NiBDMzk0LjU0MTE3NiwxNzIuMzcwMDc2IDQwMy41NzY0NzEsMTgxLjEzNDY1NiA0MDMuNTc2NDcxLDE4OS44OTkyMzcgQzQwMy41NzY0NzEsMTk4LjY2MzgxNyAzOTcuNTUyOTQxLDIwNy40MjgzOTcgMzg1LjUwNTg4MiwyMDcuNDI4Mzk3IFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+);
+  margin: 0 auto;
+}
+.shareAttachmentDialogContainer .filePreview .fileIcon.worksheetRecordIcon .fileSize {
+  display: none;
+}
+.shareAttachmentDialogContainer .filePreview .fileIcon-folder .fileSize {
+  display: none;
+}
+.shareAttachmentDialogContainer .filePreview .fileIcon-folderShared .fileSize {
+  display: none;
+}
+.shareAttachmentDialogContainer .filePreview .fileSize {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  padding: 3px 4px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.4);
+  display: block;
+  color: #fff;
+  line-height: 1;
+  text-indent: 0;
+}
+.shareAttachmentDialogContainer .filePreview .thumbnailCon {
+  position: absolute;
+  top: -40px;
+  display: table;
+  width: 100%;
+  height: 100%;
+  height: 185px;
+}
+.shareAttachmentDialogContainer .filePreview .thumbnail {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1;
+}
+.shareAttachmentDialogContainer .filePreview .thumbnail img {
+  max-width: 60%;
+  max-height: 100px;
+}
+.shareAttachmentDialogContainer .filePreview .process {
+  width: 46%;
+  height: 10px;
+  background: #ccc;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+  left: 27%;
+}
+.shareAttachmentDialogContainer .filePreview .process .processBar {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.shareAttachmentDialogContainer .filePreview .process .processBar .processContent {
+  height: 10px;
+  width: 0;
+}
+.shareAttachmentDialogContainer .filePreview .process .processBar .processPercent {
+  position: absolute;
+  right: -35px;
+  top: -4px;
+}
+.shareAttachmentDialogContainer .dList .dItem {
+  position: relative;
+  padding: 0 10px 0 100px;
+  margin-bottom: 24px;
+}
+.shareAttachmentDialogContainer .dList .dItem .itemLabel {
+  position: absolute;
+  left: 0px;
+  width: 80px;
+  text-align: right;
+  font-size: 14px;
+  color: #9e9e9e;
+  line-height: 36px;
+  height: 36px;
+}
+.shareAttachmentDialogContainer .dList .dItem .itemContent input,
+.shareAttachmentDialogContainer .dList .dItem .itemContent textarea {
+  width: 334px;
+}
+.shareAttachmentDialogContainer .dList .dItem .itemContent input:-ms-input-placeholder,
+.shareAttachmentDialogContainer .dList .dItem .itemContent textarea:-ms-input-placeholder {
+  color: #acacac !important;
+}
+.shareAttachmentDialogContainer .dList .dItem .itemContent input::-ms-input-placeholder,
+.shareAttachmentDialogContainer .dList .dItem .itemContent textarea::-ms-input-placeholder {
+  color: #acacac;
+}
+.shareAttachmentDialogContainer .dList .dItem .itemContent input::placeholder,
+.shareAttachmentDialogContainer .dList .dItem .itemContent textarea::placeholder {
+  color: #acacac;
+}
+.shareAttachmentDialogContainer .dList .dItem .itemContent input:focus,
+.shareAttachmentDialogContainer .dList .dItem .itemContent textarea:focus {
+  border-color: #2196e3;
+}
+.shareAttachmentDialogContainer .dList .dItem .itemContent textarea {
+  height: 90px;
+  padding: 8px 12px;
+}
+.shareAttachmentDialogContainer .fileNameText {
+  display: inline-block;
+  line-height: 36px;
+  max-width: 80%;
+  font-size: 14px;
+}
+.shareAttachmentDialogContainer .closedTip {
+  color: #919191;
+  font-size: 13px;
+  margin-top: -20px;
+  margin-bottom: -6px;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList {
+  position: relative;
+  width: 309px;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .prev,
+.shareAttachmentDialogContainer .selectTargetBtnList .next {
+  display: none;
+  position: absolute;
+  top: 22px;
+  font-size: 26px;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .prev {
+  left: -38px;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .next {
+  right: -38px;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .overfllowHidden {
+  overflow: hidden;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .listBox {
+  position: relative;
+  height: 88px;
+  padding: 10px 10px 0 10px;
+  margin: -10px -10px -3px;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .listCon {
+  position: absolute;
+  width: 1000px;
+  margin-left: 1px;
+  transform: translateZ(0px);
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .listCon:after {
+  content: '';
+  clear: both;
+  visibility: hidden;
+  border-top: 0px;
+  margin-top: -1px !important;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn {
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 36px;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn:hover .icon {
+  transform: scale(1.1);
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn .icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 50px;
+  line-height: 50px;
+  transition: 0.2s ease-out;
+  transform: translateZ(0px);
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn p {
+  line-height: 1em;
+  margin: 12px 0 0;
+  color: #555;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn.chat .icon {
+  color: #ff9101;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn.feed .icon {
+  color: #43abff;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn.task .icon {
+  color: #02c983;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn.wechat .icon {
+  color: #89c541;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn.calendar .icon {
+  color: #e85c72;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn.kc .icon {
+  color: #01bcd4;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn.qq .icon {
+  color: #2196f3;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn.qr {
+  display: none;
+}
+.shareAttachmentDialogContainer .selectTargetBtnList .targetBtn.qr .icon {
+  color: #b5b5b5;
+}
+.shareAttachmentDialogContainer .downloadableCon {
+  padding: 5px 0;
+}
+.shareAttachmentDialogContainer .switchBtnCon {
+  display: inline-block;
+  line-height: 1;
+}
+.shareAttachmentDialogContainer .switchBtnCon input[type='checkbox'] {
+  display: none;
+}
+.shareAttachmentDialogContainer .switchBtnCon input[type='checkbox']:checked + .switchBtn {
+  background-color: #47b04b;
+}
+.shareAttachmentDialogContainer .switchBtnCon input[type='checkbox']:checked + .switchBtn:before {
+  left: 22px;
+}
+.shareAttachmentDialogContainer .switchBtnCon input[type='checkbox']:checked:disabled + .switchBtn {
+  cursor: default;
+}
+.shareAttachmentDialogContainer .switchBtnCon input[type='checkbox']:checked:disabled + .switchBtn:before {
+  cursor: default;
+}
+.shareAttachmentDialogContainer .switchBtnCon .switchBtn {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 46px;
+  height: 26px;
+  border-radius: 26px;
+  background-color: #ccc;
+  transition: 0.4s ease;
+}
+.shareAttachmentDialogContainer .switchBtnCon .switchBtn:before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 22px;
+  transition: 0.4s ease;
+}
+.shareAttachmentDialogContainer .canDownloadTip {
+  margin-left: 15px;
+}
+.shareAttachmentDialogContainer .canDownloadTip i {
+  font-size: 20px;
+  color: #bdbdbd;
+  vertical-align: middle;
+}
+.shareAttachmentDialogContainer .canDownloadTip:after {
+  width: 200px !important;
+  white-space: normal;
+}
+.shareAttachmentDialogContainer .sendToTarget {
+  display: inline-block;
+  width: 80px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  line-height: 34px;
+  height: 36px;
+  vertical-align: middle;
+}
+.shareAttachmentDialogContainer .sendToTarget .customSelect {
+  padding: 0 5px 0 10px;
+}
+.shareAttachmentDialogContainer .sendToTarget .icon-arrow-down-border {
+  font-size: 24px;
+}
+.shareAttachmentDialogContainer .sendToTarget .csList {
+  margin-top: 10px;
+}
+.shareAttachmentDialogContainer .selectSharePermission {
+  position: relative;
+  display: inline-block;
+  width: 280px;
+  font-size: 13px;
+  line-height: 36px;
+  height: 36px;
+}
+.shareAttachmentDialogContainer .selectSharePermission .customSelect {
+  margin-left: -10px;
+  vertical-align: middle;
+  z-index: 2 !important;
+}
+.shareAttachmentDialogContainer .selectSharePermission .spanShow {
+  font-size: 13px !important;
+}
+.shareAttachmentDialogContainer .selectSharePermission:after {
+  content: '';
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 11;
+}
+.shareAttachmentDialogContainer .selectSharePermission.noPermission:after {
+  display: block;
+}
+.shareAttachmentDialogContainer .copyLinkCon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  width: 100px;
+  font-size: 13px;
+  color: #494949;
+}
+.shareAttachmentDialogContainer .copyLinkCon .copyLinkHover {
+  display: inline-block;
+  cursor: pointer;
+  width: 100px;
+  height: 34px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 34px;
+  border: 1px solid #cccccc;
+}
+.shareAttachmentDialogContainer .copyLinkCon .copyLinkContent {
+  display: none;
+  position: relative;
+  z-index: 11;
+  margin-left: -246px;
+  margin-top: 16px;
+  right: 0px;
+  width: 346px;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+.shareAttachmentDialogContainer .copyLinkCon .copyLinkContent:before,
+.shareAttachmentDialogContainer .copyLinkCon .copyLinkContent:after {
+  content: '';
+  position: absolute;
+  right: 30px;
+  top: -20px;
+  width: 0px;
+  height: 0px;
+  border: 10px solid transparent;
+  border-bottom-color: rgba(156, 156, 156, 0.13);
+}
+.shareAttachmentDialogContainer .copyLinkCon .copyLinkContent:after {
+  border-bottom-color: #fff;
+  top: -19px;
+}
+.shareAttachmentDialogContainer .copyLinkCon .copyLinkContent input {
+  width: 230px !important;
+}
+.shareAttachmentDialogContainer .copyLinkCon .copyLinkContent .copyLinkBtn {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 12px;
+  width: 68px;
+  height: 34px;
+  line-height: 34px;
+  color: #fff;
+  border-radius: 3px;
+}
+.shareAttachmentDialogContainer .copyLinkCon:hover .copyLinkContent {
+  display: block;
+}
+.shareAttachmentDialogContainer .sendToContent .kcPath {
+  margin-left: 13px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.shareAttachmentDialogContainer .sendToContent .kcPath .pathStr {
+  display: inline-block;
+  max-width: 53px;
+}
+.shareAttachmentDialogContainer .addDescBtn {
+  display: inline-block;
+  font-size: 13px;
+  color: #bdbdbd;
+  cursor: pointer;
+}
+.shareAttachmentDialogContainer .searchListCon {
+  display: inline-block;
+  height: 36px;
+  width: 200px;
+  color: #333;
+  vertical-align: middle;
+  width: 279px;
+}
+.shareAttachmentDialogContainer .searchListCon .selected {
+  font-size: 13px;
+  line-height: 34px;
+  padding: 0 10px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.shareAttachmentDialogContainer .searchListCon .selected img {
+  width: 24px;
+  height: 24px;
+  border-radius: 20px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.shareAttachmentDialogContainer .searchListCon .searchInput {
+  display: none;
+  width: 100% !important;
+}
+.shareAttachmentDialogContainer .searchListCon .listPanel {
+  display: none;
+  position: absolute;
+  width: 279px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  background-color: #fff;
+  z-index: 2;
+}
+.shareAttachmentDialogContainer .searchListCon .searchList {
+  max-height: 279px;
+  min-height: 100px;
+  overflow: scroll;
+}
+.shareAttachmentDialogContainer .searchListCon .searchList .listItem {
+  line-height: 34px;
+  font-size: 13px;
+  color: #333;
+  padding: 0 10px;
+  background-color: #fff !important;
+  cursor: pointer;
+}
+.shareAttachmentDialogContainer .searchListCon .searchList .listItem:hover {
+  background-color: inherit !important;
+  color: #fff;
+}
+.shareAttachmentDialogContainer .searchListCon .searchList .listItem .itemName {
+  max-width: 185px;
+  display: inline-block;
+}
+.shareAttachmentDialogContainer .searchListCon .searchList .listItem img {
+  width: 24px;
+  height: 24px;
+  border-radius: 20px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.shareAttachmentDialogContainer .searchListCon .searchList .listTip {
+  padding: 40px 0;
+  text-align: center;
+  color: #bdbdbd;
+}
+.shareAttachmentDialogContainer .searchListCon .footerBtn {
+  cursor: pointer;
+  border-top: 1px solid #cccccc;
+  height: 40px;
+  padding: 9px 13px;
+  font-size: 13px;
+}
+.shareAttachmentDialogContainer .searchListCon .footerBtn i {
+  font-size: 20px;
+  vertical-align: middle;
+}
+.shareAttachmentDialogContainer .searchListCon .footerBtn .footerStr {
+  vertical-align: middle;
+}
+.shareAttachmentDialogContainer .shareAttachmentFooter {
+  margin: 24px 0;
+  text-align: right;
+}
+.shareAttachmentDialogContainer .shareAttachmentFooter .yes {
+  position: relative;
+  line-height: 35px;
+  display: inline-block;
+  height: 35px;
+  padding: 0 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+}
+.shareAttachmentDialogContainer .shareAttachmentFooter .yes:hover:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.18);
+  left: 0;
+  border-radius: 4px;
+}
+.shareAttachmentDialogContainer .shareAttachmentFooter .no {
+  margin-right: 32px;
+  cursor: pointer;
+  color: #aaa;
+}
+.shareAttachmentDialogContainer.isWorksheet .selectTargetBtnList .targetBtn {
+  display: none;
+}
+.shareAttachmentDialogContainer.isWorksheet .selectTargetBtnList .targetBtn.qq,
+.shareAttachmentDialogContainer.isWorksheet .selectTargetBtnList .targetBtn.chat,
+.shareAttachmentDialogContainer.isWorksheet .selectTargetBtnList .targetBtn.qr,
+.shareAttachmentDialogContainer.isWorksheet .selectTargetBtnList .targetBtn.wechat {
+  display: inline-block;
+}
+.shareAttachmentDialogContainer.isWorksheet .selectTargetBtnList .next {
+  display: none !important;
+}
+.shareAttachmentDialogContainer.isWorksheetRow .selectTargetBtnList .targetBtn {
+  display: none;
+}
+.shareAttachmentDialogContainer.isWorksheetRow .selectTargetBtnList .targetBtn.qq,
+.shareAttachmentDialogContainer.isWorksheetRow .selectTargetBtnList .targetBtn.chat,
+.shareAttachmentDialogContainer.isWorksheetRow .selectTargetBtnList .targetBtn.qr,
+.shareAttachmentDialogContainer.isWorksheetRow .selectTargetBtnList .targetBtn.wechat {
+  display: inline-block;
+}
+.shareAttachmentDialogContainer.isWorksheetRow .selectTargetBtnList .next {
+  display: none !important;
+}
+.mobileShareDialog {
+  position: relative;
+  padding: 50px 0 90px;
+  text-align: center;
+}
+.mobileShareDialog .urlQrCode {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+}
+.mobileShareDialog .urlQrCode .clipLoader {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  margin-top: 77px;
+}
+.mobileShareDialog .urlQrCode .loadError {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1;
+  color: #bdbdbd;
+  margin-top: 86px;
+}
+.mobileShareDialog .urlQrCode img {
+  height: 160px;
+}
+.mobileShareDialog .tip {
+  font-size: 15px;
+  color: #333;
+  line-height: 1;
+  margin: 6px 0 15px;
+}
+.mobileShareDialog .fileName {
+  font-size: 12px;
+  color: #bdbdbd;
+  margin: 0;
+}
+.mobileShareDialog .deadline {
+  position: absolute;
+  bottom: -50px;
+  color: #bdbdbd;
+}
+.shareAttachmentDialog > .mui-dialog-scroll-container > .mui-dialog-dialog > .mui-dialog-header {
+  background: #f5f5f5;
+}
+.shareAttachmentDialog > .mui-dialog-scroll-container > .mui-dialog-dialog > .mui-dialog-body {
+  overflow: visible !important;
+}
+.sendToTargetDropdown .Dropdown--input {
+  height: 36px !important;
+  font-size: 12px;
+  padding: 0 !important;
+  text-align: center;
+}
+.sendToTargetDropdown .icon-arrow-down-border {
+  font-size: 12px !important;
+  margin-left: 5px !important;
+  vertical-align: middle;
+}
+.selectSharePermissionDropdown .Dropdown--input {
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+}
+
+.MDUpdater {
+  padding: 15px 20px;
+  width: auto;
+  z-index: 1;
+  position: relative;
+}
+
+.MDUpdater .Updater_TextArea {
+  width: 100%;
+  border: 0px;
+  resize: none;
+}
+
+.MDUpdater .faceArea {
+  border-bottom: 1px solid #f2f2f2;
+  height: 22px;
+}
+
+.MDUpdater .myUpdateType {
+  float: left;
+  padding-left: 4px;
+}
+
+.MDUpdater .myUpdateType .falseHide {
+  width: 1px;
+  width: 1px;
+  overflow: hidden;
+  margin-right: 0px;
+}
+
+.MDUpdater .myUpdateType a {
+  color: #666;
+  display: inline-block;
+  line-height: 16px;
+  height: 16px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.MDUpdater .myUpdateType a:hover {
+  text-decoration: none;
+}
+
+.MDUpdater .myUpdateType .ctrlUploadAttachment {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.MDUpdater .update_close {
+  background: url(data:image/gif;base64,R0lGODlhDQAaAPEAAABmzNjr/t3u/wAAACH5BAEAAAMALAAAAAANABoAAAI6nI+pO5COgDwS0llXnSz3rWHcZXnUw6QquYHt2wZxHMhSbVc4sL94DbsJcr4fbNfTAW9L3SwIa0AdBQA7) left top no-repeat;
+  display: block;
+  width: 13px;
+  height: 13px;
+  font-size: 1px;
+  position: relative;
+  float: right;
+  right: 0px;
+  top: 0px;
+  *position: absolute;
+  *top: 10px;
+  *right: 10px;
+  cursor: pointer;
+}
+
+.MDUpdater .update_close:hover {
+  background-position: left bottom !important;
+}
+
+.MDUpdater .middleContent {
+  clear: both
+}
+
+.MDUpdater .updaterDialog_Main {
+  border-right: 0px;
+  zoom: 1;
+  background-color: #fafafa;
+  border: 1px solid #f0f0f0;
+}
+
+.MDUpdater .arrowUpOuter {
+  border-top-width: 0px;
+  border-color: transparent transparent #f0f0f0 transparent;
+}
+
+.MDUpdater .arrowUpInner {
+  border-top-width: 0px;
+  top: 2px;
+  border-color: transparent transparent #fafafa transparent;
+}
+
+.MDUpdater .groupSelect {
+  margin-top: -2px;
+}
+
+.MDUpdater .linkViewTextBoxContainer {
+  margin: 10px;
+  height: 35px;
+  line-height: 35px;
+  background-color: White;
+  border: 1px solid #D5D5D5;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.MDUpdater .linkTextBox {
+  height: 33px;
+  line-height: 33px;
+  border: 0px;
+  width: 420px;
+}
+
+.MDUpdater .linkBtnArea {
+  padding: 0px 5px;
+  border-left: 1px solid #ccc;
+}
+
+.MDUpdater .linkBtn {
+  padding: 3px 6px;
+  margin: 0px;
+  margin-top: -2px;
+}
+
+.MDUpdater .updaterLinkView {
+  margin: 0px 10px 10px 10px;
+}
+
+.MDUpdater .msgExpandDiv .faceBtn {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-position: left top !important;
+  cursor: pointer;
+  background-size: 100%;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.MDUpdater .msgExpandDiv .faceBtn:hover {
+  background-position: left bottom !important;
+}
+
+.MDUpdater .msgExpandDiv .faceBtn:not(:hover) {
+  color: #ccc !important;
+}
+
+.easyDialogBoxMDUpdater .dialogContent {
+  padding: 0;
+}
+
+.easyDialogBoxMDUpdater>.noHeader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.easyDialogBoxMDUpdater>.noHeader .title {
+  display: none;
+}
+
+.easyDialogBoxMDUpdater>.noHeader .dialogCloseBtn {
+  z-index: 2;
+  position: relative;
+}
+
+.easyDialogBoxMDUpdater>.mui-dialog-scroll-container>.mui-dialog-dialog>.mui-dialog-body {
+  overflow: visible !important;
+}
+
+.easyDialogBoxMDUpdater>.mui-dialog-scroll-container>.mui-dialog-dialog>.mui-dialog-header,
+.easyDialogBoxMDUpdater>.mui-dialog-scroll-container>.mui-dialog-dialog>.mui-dialog-body {
+  padding: 0 !important;
+}
+
+.voteUpdaterOperate {
+  margin: 10px;
+  margin-top: 0px;
+  padding-top: 10px;
+  border-top: 1px solid #e9ecf0;
+}
+.voteUpdaterOperate .voteAnonymous {
+  margin: 0px;
+  margin-top: 3px;
+}
+.updaterDialog_Main .voteOptions {
+  width: 98.5%;
+  height: expression(this.height>280? '280px': true);
+  max-height: 280px;
+  overflow-y: auto;
+  margin: 10px;
+}
+.updaterDialog_Main .voteOptions input {
+  border: 0px;
+}
+.updaterDialog_Main .voteOptions ul li {
+  min-height: 28px;
+  height: auto;
+  line-height: 28px;
+}
+.updaterDialog_Main .voteOptions .inputTxt {
+  border: 1px solid #ddd;
+  padding: 2px 2px;
+  background-color: White;
+  width: 550px;
+}
+.updaterDialog_Main .voteOptions .removeVoteItem {
+  position: relative;
+  z-index: 1;
+}
+
+.votePicContainer {
+  border-top: 1px solid #eee;
+  margin-top: 2px;
+}
+.votePicContainer .votePicUploaded {
+  float: left;
+}
+.votePicContainer .votePicUploaded .uploadPicList {
+  margin-left: 0px;
+  padding: 5px;
+}
+.votePicUploaded .uploadPicList .picItem {
+  margin-top: 3px;
+}
+.votePicContainer .votePicDesc {
+  height: 100%;
+  float: left;
+  margin: 50px 0px 0px 40px;
+}
+.votePicContainer .votePicDesc a {
+  text-decoration: none;
+}
+.votePicContainer .votePicDesc .votePicName {
+  max-width: 140px;
+  text-align: center;
+  margin: auto;
+}
+
+/*ͼƬ*/
+.votePicContainer .uploadPicList img {
+  border-radius: 0% !important;
+}
+.votePicContainer .uploadPicList {
+  margin-left: 10px;
+  min-height: 2px;
+  padding: 0px;
+}
+.votePicContainer .uploadPicList .progressImg {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+.votePicContainer .uploadPicList .progressImg .progressPanel {
+  width: 119px;
+}
+.votePicContainer .uploadPicList .picItem {
+  position: relative;
+  margin: 0px;
+  margin-right: 8px;
+  margin-top: 8px;
+  width: 219px;
+  height: 153px;
+  padding: 0px;
+  float: left;
+  border: 1px solid #aaa;
+}
+.votePicContainer .uploadPicList .picItem .uploadThumbPic {
+  max-height: 153px;
+  max-width: 220px;
+  border: 0px;
+  min-width: 219px;
+}
+.votePicContainer .uploadPicList .picItem .picDelete {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: white;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 15px;
+  height: 16px;
+  font-weight: bold;
+}
+.votePicContainer .uploadPicList .picItem .picContainer {
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  border: 0px;
+}
+.votePicContainer .uploadPicList .picItem img {
+  vertical-align: middle;
+}
+.votePicContainer .uploadPicList .picItem .nullImage {
+  width: 0px;
+  height: 100%;
+}
+
+/*�ϴ����� ͼƬ��������ʽ*/
+.votePicContainer .progressImg {
+  color: #aaa;
+  text-align: center;
+}
+.votePicContainer .progressImg .titleLimitWidth {
+  max-width: 230px;
+  width: expression((this.width>230) ? '230px': this.width);
+  line-height: 24px;
+}
+.votePicContainer .progressImg .progressPanel {
+  height: 81px;
+  width: 119px;
+}
+.votePicContainer .progressImg .progressPanel .progressbar {
+  background-color: #ddd;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  top: 0px;
+}
+
+.votePicContainer .imgCancel {
+  z-index: 50;
+  line-height: 20px;
+  font-size: 12px;
+  top: -26px;
+}
+.votePicContainer .imgQueuing {
+  width: 43px;
+  height: 20px;
+  margin: 50px 0 0 92px;
+  z-index: 40;
+  line-height: 20px;
+  position: absolute;
+  font-size: 16px;
+}
+
+.linkView .fixed {
+  table-layout: fixed;
+}
+.linkView .picArea {
+  width: 160px;
+  height: 118px;
+  background: white;
+  border: 1px solid #dfdfdf;
+}
+
+.linkView .picList {
+  width: 140px;
+  height: 100px;
+  margin: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.linkView .picList {
+  width: 140px;
+  height: 100px;
+  margin: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.linkView .picList td {
+  width: 120px;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0px;
+}
+.linkView .picList td img {
+  max-width: 140px;
+  width: expression(this.width>140? '140px': false);
+}
+
+.linkView .thumbPages {
+  margin-top: -32px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  background-color: #d1d1d1;
+  _filter: alpha(opacity=40);
+  opacity: 0.4;
+}
+.linkView .thumbPages a:hover {
+  text-decoration: none;
+}
+.linkView .linkTitle {
+  width: 330px;
+}
+.linkView .linkOperator {
+  line-height: 22px;
+}
+.linkView .linkContent {
+  margin: 0px 10px;
+  padding-bottom: 10px;
+}
+.linkView .linkDesc {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.linkView .withLinkImg {
+  margin: 0px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+

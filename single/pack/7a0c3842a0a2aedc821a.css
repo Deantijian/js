@@ -1,0 +1,391 @@
+.processTabs .am-tabs-default-bar-tab {
+  border-bottom: none !important;
+}
+.processTabs .am-tabs-default-bar-tab span {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.processTabs .am-tabs-default-bar-tab:after {
+  content: none !important;
+}
+.processTabs .am-tabs-default-bar-tab-active:before {
+  content: '';
+  height: 4px;
+  background-color: #108ee9;
+  width: 16px;
+  margin-left: -8px;
+  position: absolute;
+  left: 50%;
+  bottom: 3px;
+  border-radius: 4px;
+}
+.processTabs .am-tabs-default-bar-underline {
+  display: none;
+}
+.bottomProcessTabs .am-tabs-default-bar-tab span {
+  line-height: normal;
+}
+.bottomProcessTabs .am-tabs-default-bar-tab-active:before {
+  content: none;
+}
+.processContent {
+  background-color: #f2f2f2;
+}
+.processContent .headerWrapper {
+  padding: 10px 15px;
+}
+.processContent .withoutData {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.processContent .withoutData .icnoWrapper {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #EFEFEF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.processContent .withoutData .icon {
+  color: #BDBDBD;
+  font-size: 90px;
+}
+.processContent .withoutData span {
+  font-size: 18px;
+  color: #9E9E9E;
+  margin-top: 22px;
+}
+.processContent .searchWrapper {
+  padding: 7px 15px;
+  border-radius: 25px;
+  background-color: #fff;
+  position: relative;
+  margin: 0 10px 10px;
+}
+.processContent .searchWrapper input {
+  width: 100%;
+  border: none;
+  padding-left: 10px;
+}
+.processContent .searchWrapper .icon-close {
+  position: absolute;
+  right: 10px;
+}
+.processContent .batchApprovalHeader {
+  justify-content: space-between;
+  height: 44px;
+  padding: 0 15px;
+  background-color: #fff;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 6px 12px #0000001F;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+.processContent .batchApprovalFooter {
+  display: flex;
+  padding: 17px 13px;
+  font-weight: 700;
+  box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  font-size: 15px;
+  border-radius: 8px 8px 0 0;
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.processContent .batchApprovalFooter .passApprove,
+.processContent .batchApprovalFooter .rejectApprove {
+  color: #999;
+  text-align: center;
+  padding: 4px 15px;
+  border-radius: 24px;
+  border: 1px solid #DDDDDD;
+  background-color: #fff;
+}
+.processContent .batchApprovalFooter .passApprove.all {
+  color: #fff;
+  border-color: #4CAF50;
+  background-color: #4CAF50;
+}
+.processContent .batchApprovalFooter .rejectApprove.select {
+  color: #F44336;
+  border-color: #F44336;
+  background-color: rgba(244, 67, 54, 0.12);
+}
+.processContent .batchApprovalFooter .rejectApprove.all {
+  color: #fff;
+  border-color: #F44336;
+  background-color: #F44336;
+}
+.processContent .batchApprovalFooter .am-checkbox-inner:after {
+  top: 2px;
+  right: 7px;
+}
+.processContent .batchApprovalFooter .checkboxDisabled .am-checkbox {
+  background: #00000026;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+.processContent .batchApprovalFooter .checkboxDisabled .am-checkbox input[type='checkbox']:disabled:after {
+  border-color: #bbbbbb !important;
+}
+.processContent .batchApprovalFooter .checkboxDisabled .am-checkbox .am-checkbox-inner {
+  border-color: #9e9e9e;
+}
+.processContent .processBatchOperation {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 120px;
+  z-index: 99;
+}
+
+.myProcess .icon-knowledge_file {
+  color: #607D8B;
+  font-size: 18px;
+}
+.myProcess .count {
+  color: #F44336;
+  padding: 5px 8px;
+  line-height: 8px;
+  border-radius: 20px;
+  margin-left: 10px;
+  background-color: #fce4e3;
+}
+.myProcessHeader {
+  position: relative;
+}
+.myProcessHeader .count {
+  position: absolute;
+  top: -7px;
+  left: 12px;
+  border-radius: 25px;
+  padding: 0px 4px;
+  font-size: 12px;
+  line-height: 14px;
+}
+.myProcessHeader .native {
+  color: #fff;
+  background-color: red;
+}
+.myProcessHeader .app {
+  background-color: #fff;
+}
+.myProcessHeader .appIcon {
+  transition: all 0.25s;
+  color: rgba(255, 255, 255, 0.8);
+}
+.myProcessHeader .appIcon:hover {
+  color: #fff;
+}
+
+.mobileProcessCardWrapper {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  background-color: #fff;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
+  border: 1px solid #fff;
+}
+.mobileProcessCardWrapper.batchApproval {
+  padding: 12px 9px;
+}
+.mobileProcessCardWrapper.approveChecked {
+  border-color: #2196f3;
+}
+.mobileProcessCardWrapper .am-checkbox-disabled {
+  background: #00000026;
+  border-radius: 50%;
+}
+.mobileProcessCardWrapper .am-checkbox-disabled .am-checkbox-inner {
+  border-color: #9e9e9e;
+}
+.mobileProcessCardWrapper .am-checkbox-inner:after {
+  top: 2px;
+  right: 7px;
+}
+.mobileProcessCardWrapper .nodeState {
+  color: #fff;
+  padding: 3px 11px;
+  border-radius: 25px;
+  background-color: #ebebeb;
+}
+.mobileProcessCardContent {
+  min-width: 0;
+}
+.mobileProcessCardHeader {
+  white-space: nowrap;
+}
+.mobileProcessCardHeader .time {
+  padding-left: 7px;
+  margin-left: 7px;
+}
+.mobileProcessCardHeader .flowNode {
+  border-radius: 3px;
+  padding: 4px 12px;
+  background-color: #F2F2F2;
+}
+.mobileProcessCardHeader .stepTimeConsuming {
+  margin-left: 10px;
+  height: 24px;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.mobileProcessCardBody {
+  color: #333;
+  font-size: 15px;
+  padding: 12px 0;
+  font-weight: 500;
+}
+.mobileProcessCardBody .accountAvatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.mobileProcessCardFooter {
+  justify-content: space-between;
+}
+.mobileProcessCardFooter .state {
+  font-weight: bold;
+  color: #2196F3;
+  font-size: 13px;
+}
+.mobileProcessCardFooter .appIcon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 17px;
+  margin-right: 10px;
+}
+.mobileProcessCardFooter .dot {
+  width: 5px;
+  height: 5px;
+  margin: 2px 6px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #9E9E9E;
+}
+.mobileProcessCardFooter .approveBtnWrapper .pass,
+.mobileProcessCardFooter .approveBtnWrapper .overrule,
+.mobileProcessCardFooter .approveBtnWrapper .backlog {
+  border-color: #EFEFEF !important;
+  border-radius: 19px;
+  padding: 2px 12px;
+  max-width: 100px;
+  min-width: 60px;
+}
+.mobileProcessCardFooter .approveBtnWrapper .pass {
+  color: #4CAF50 !important;
+}
+.mobileProcessCardFooter .approveBtnWrapper .overrule {
+  color: #F44336 !important;
+}
+.mobileProcessCardFooter .appName,
+.mobileProcessCardFooter .processName {
+  max-width: 50%;
+}
+
+.processDelegation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 120px;
+  z-index: 100;
+}
+.processDelegation.bottom180 {
+  bottom: 180px;
+}
+.processDelegation.bottom60 {
+  bottom: 60px;
+}
+.processDelegation.bottom120 {
+  bottom: 120px;
+}
+.processDelegation .redDot {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: red;
+}
+.organizationList .am-action-sheet-button-list {
+  max-height: 280px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.todoEntrustWrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  width: 460px;
+  background-color: #f7f7f7;
+  box-shadow: 0 10px 23px 2px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.15);
+  z-index: 20;
+  overflow: auto;
+}
+.todoEntrustWrapper .todoEntrustHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  padding: 0 20px;
+  background: #fff;
+}
+.todoEntrustWrapper .todoEntrustHeaderWrapper span {
+  color: #333;
+  font-size: 17px;
+}
+.todoEntrustWrapper .listWrapper {
+  margin-top: 16px;
+  padding: 0 20px;
+}
+.todoEntrustWrapper .trusteeAvatarWrapper {
+  border-radius: 24px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+.todoEntrustWrapper.mobileCarListWrapper {
+  position: unset;
+  width: 100%;
+  box-shadow: unset;
+  background-color: #f5f5f5;
+}
+.todoEntrustWrapper.mobileCarListWrapper .listWrapper {
+  padding: 0 10px;
+}
+

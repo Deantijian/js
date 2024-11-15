@@ -1,0 +1,24 @@
+.searchRecordWrapper {
+  background-color: #f5f5f9;
+}
+.searchSheetRowsWrapper .am-list {
+  width: 100%;
+}
+.searchSheetRowsWrapper .am-list-header {
+  padding: 5px;
+}
+.searchSheetRowsWrapper .am-list-body {
+  background-color: transparent;
+  border: none !important;
+}
+.searchSheetRowsWrapper .am-list-body:before,
+.searchSheetRowsWrapper .am-list-body:after {
+  content: none !important;
+}
+.searchSheetRowsWrapper .sheetRow .controlName {
+  color: #9e9e9e;
+}
+.searchSheetRowsWrapper .sheetRow .controlValue {
+  color: #616161;
+}
+

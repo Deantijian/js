@@ -1,0 +1,184 @@
+.personalInfoContainer {
+  flex: 1;
+  min-height: 0;
+  padding: 24px 40px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  border-radius: 4px;
+}
+.personalInfoContainer .personalTop {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+}
+.personalInfoContainer .personalTop .accountHeadBox,
+.personalInfoContainer .personalTop .personalEmblem {
+  flex: 1;
+  min-width: 0;
+}
+.personalInfoContainer .personalTop .editfullNameInput {
+  width: 100%;
+  border: 1px solid #2999f3;
+  border-radius: 3px;
+  height: 32px;
+  line-height: 30px;
+  padding: 6px 12px;
+  box-sizing: border-box;
+}
+.personalInfoContainer .personalTop .editfullNameInput.isErr {
+  border: 1px solid red;
+}
+.personalInfoContainer .personalTop .accountHeadBox {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.personalInfoContainer .personalTop .userImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.personalInfoContainer .personalTop .userImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.personalInfoContainer .personalTop .userImage .hoverAvatar {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  line-height: 85px;
+  color: #ffffff;
+  z-index: 2;
+}
+.personalInfoContainer .personalTop .userImage:hover .hoverAvatar {
+  display: block;
+}
+.personalInfoContainer .passwordProgress {
+  max-width: 223px;
+}
+.personalInfoContainer .eduOrWorkItemBox {
+  width: 60%;
+  border-radius: 3px;
+  padding: 20px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.personalInfoContainer .eduOrWorkItemBox .itemOption {
+  display: none;
+}
+.personalInfoContainer .eduOrWorkItemBox:hover {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+}
+.personalInfoContainer .eduOrWorkItemBox:hover .itemDate {
+  display: none;
+}
+.personalInfoContainer .eduOrWorkItemBox:hover .itemOption {
+  display: block;
+}
+.personalInfoContainer .eduOrWorkItemBox .itemHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.personalInfoContainer .eduOrWorkItemBox .itemHeader .itemName {
+  width: 60%;
+}
+.personalInfoContainer .eduOrWorkItemBox .itemHeader .itemDate,
+.personalInfoContainer .eduOrWorkItemBox .itemHeader .itemOption {
+  width: 40%;
+  padding-left: 16px;
+  box-sizing: border-box;
+  text-align: right;
+}
+.personalInfoContainer .eduOrWorkItemBox .flexWrap {
+  display: flex;
+  word-break: break-all;
+  margin-top: 6px;
+}
+.personalInfoContainer .detailContainer,
+.personalInfoContainer .infoContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+}
+.personalInfoContainer .detailContainer .itemLabel,
+.personalInfoContainer .infoContainer .itemLabel {
+  width: 80px;
+  text-align: left;
+  display: inline-block;
+}
+.personalInfoContainer .detailContainer .freeTag,
+.personalInfoContainer .infoContainer .freeTag {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 12px;
+  background-color: rgba(71, 177, 75, 0.08);
+  color: #47b14b;
+  font-weight: bold;
+}
+.personalInfoContainer .detailContainer .accountTag,
+.personalInfoContainer .infoContainer .accountTag {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 12px;
+  background-color: rgba(255, 154, 0, 0.08);
+  color: #ff9a00;
+  font-weight: bold;
+}
+.personalInfoContainer .detailContainer .flexCenter,
+.personalInfoContainer .infoContainer .flexCenter {
+  display: flex;
+  align-items: center;
+}
+.personalInfoContainer .infoContainer {
+  width: 60%;
+}
+.personalInfoContainer .detailContainer {
+  width: 40%;
+}
+
+.baseInfoEditContent .formControl {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  display: inline-block;
+}
+.baseInfoEditContent .formControl.error {
+  border-color: #f00 !important;
+}
+.baseInfoEditContent .errorBox {
+  height: 24px;
+}
+.baseInfoEditContent .wsRadioGroup label + label {
+  margin-left: 100px;
+}
+.uploadAvatorDialog .reviewBox,
+.baseInfoEditContent .reviewBox {
+  margin-left: 36px !important;
+}
+.uploadAvatorDialog .flexEnd,
+.baseInfoEditContent .flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+.uploadAvatorDialog .flexEnd .saveBtn,
+.baseInfoEditContent .flexEnd .saveBtn {
+  width: 92px;
+  height: 36px;
+  border-radius: 18px;
+}
+
